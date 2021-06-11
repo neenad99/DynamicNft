@@ -1,0 +1,20 @@
+{
+    "name": "Hack Knight",
+    "description": "Hello There!!!",
+    "image": "https://ipfs.io/ipfs/QmZGQA92ri1jfzSu61JRaNQXYg1bLuM7p8YT83DzFA2KLH?filename=Chainlink_Knight.png",
+    "attributes": [
+        {
+            "trait_type": "Strength",
+            "value": 0
+        },
+        {
+            "trait_type": "Speed",
+            "value": 1
+        },
+        {
+            "trait_type": "Stamina",
+            "value": 17
+        }
+    ]
+}
+
