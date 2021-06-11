@@ -130,7 +130,7 @@ Truffle v5.0.25 (core: 5.0.25)
 Node v10.16.3
 ```
 
-Further additional steps todo:
-1> make sure to add relevant api keys in sample env file and change name to .env
-2>rpc url and mnemonic can be found at infura
-3>ether scan api key can be found after signinu up at etherscan
+Further additional steps todo: <br/>
+1>make sure to add relevant api keys in sample env file and change name to .env<br/>
+2>rpc url and mnemonic can be found at infura<br/>
+3>ether scan api key can be found after signinu up at etherscan<br/>
