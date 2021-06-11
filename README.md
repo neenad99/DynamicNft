@@ -15,6 +15,7 @@
 ## Installation
 
 1. Install truffle
+2. Install metamask chrome extension
 
 ```bash
 npm install truffle -g
@@ -25,11 +26,6 @@ npm install truffle -g
 ```bash
 mkdir MyChainlinkProject
 cd MyChainlinkProject/
-```
-
-3. Unbox
-
-```bash
 truffle unbox smartcontractkit/box
 ```
 
@@ -60,7 +56,7 @@ npm run migrate:kovan
 You can also run:
 
 ```bash
-truffle migrate --network kovan --reset
+truffle migrate --network kovan/rinkeby --reset
 ```
 If you want to use truffle commands.
 
@@ -134,9 +130,7 @@ Truffle v5.0.25 (core: 5.0.25)
 Node v10.16.3
 ```
 
-## TODO
-
-- Add tests for ChainlinkVRF
-- Add tests for Chainlink Price Feeds
-- Refactor tests to use this instead of defining contracts with let
-- Use the Chainlink-published mocks for [MockV3Aggregator](https://github.com/smartcontractkit/chainlink/blob/develop/evm-contracts/src/v0.6/tests/MockV3Aggregator.sol) and [VRFCoordinatorMock](https://github.com/smartcontractkit/chainlink/blob/develop/evm-contracts/src/v0.6/tests/VRFCoordinatorMock.sol)
+Further additional steps todo:
+1> make sure to add relevant api keys in sample env file and change name to .env
+2>rpc url and mnemonic can be found at infura
+3>ether scan api key can be found after signinu up at etherscan
